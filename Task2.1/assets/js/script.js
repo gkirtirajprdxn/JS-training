@@ -1,4 +1,4 @@
-
+var selectedRow = null;
 
 function onFormSubmit(){
 	var formData = readFormData();
@@ -31,4 +31,12 @@ function insertRecord(data){
 	cell5 = row.insertCell(5);
 	cell5.innerHTML = '<a onClick="onDelete(this)">Delete</a>';
 	alert("Thank you!");
+}
+
+function resetForm(){
+	document.getElementById('firstname').value = '';
+	document.getElementById('lastname').value = '';
+	document.getElementById('gender').value = '';
+	document.getElementById('address').value = '';
+	selectedRow = null;
 }

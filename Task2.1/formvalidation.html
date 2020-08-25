@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Form Validation</title>
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+<body>
+
+	<table>
+		<tr>
+			<td>
+				<form onsubmit="onFormSubmit();event.preventDefault();" autocomplete="off">
+					<div>
+						<label>First Name:</label>
+						<input type="text" name="firstname" id="firstname" required="This field is required.">
+					</div>
+					<div>
+						<label>Last Name:</label>
+						<input type="text" name="lastname" id="lastname" required="This field is required.">
+					</div>
+					<div>
+						<label>Gender:</label>
+						<input type="radio" name="gender" id="gender" value="male">Male
+						<input type="radio" name="gender" id="gender" value="female">Female
+					</div>
+					<div>
+						<label>Address:</label>
+						<input type="text" name="address" id="address" required="This field is required.">
+					</div>
+					<div>
+						<input type="checkbox" name="terms" id="terms" required="This field is required.">
+						<label>Terms & Conditions</label>
+					</div>
+					<div  class="form-action-buttons">
+                        <input type="submit" value="Submit">
+                    </div>
+                    <div  class="form-action-buttons">
+                        <input type="button" value="Cancel" onclick="resetForm()">
+                    </div>
+				</form>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<table class="list" id="elist">
+					<thead>
+                        <tr>
+                            <th>First Name</th>
+                            <th>Last Name</th>
+                            <th>Gender</th>
+                            <th>Address</th>
+                            <th>Edit</th>
+                            <th>Delete</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+
+                    </tbody>
+				</table>
+			</td>
+		</tr>
+	</table>
+
+<script type="text/javascript" src="assets/js/script.js"></script>
+</body>
+</html>

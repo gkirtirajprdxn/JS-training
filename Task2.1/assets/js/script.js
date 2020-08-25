@@ -40,3 +40,18 @@ function resetForm(){
 	document.getElementById('address').value = '';
 	selectedRow = null;
 }
+
+function onEdit(td){
+	selectedRow = td.parentElement.parentElement;
+	document.getElementById('firstname').value = selectedRow.cells[0].innerHTML;
+	document.getElementById('lastname').value = selectedRow.cells[1].innerHTML;
+	document.getElementById('gender').value = selectedRow.cells[2].innerHTML;
+	document.getElementById('address').value = selectedRow.cells[3].innerHTML;
+}
+
+function updateRecord(formData){
+	selectedRow.cells[0].innerHTML = formData.firstname;
+	selectedRow.cells[1].innerHTML = formData.lastname;
+	selectedRow.cells[2].innerHTML = formData.gender;
+	selectedRow.cells[3].innerHTML = formData.address;
+}

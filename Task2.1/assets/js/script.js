@@ -2,7 +2,10 @@ var selectedRow = null;
 
 function onFormSubmit(){
 	var formData = readFormData();
-	insertRecord(formData);
+	if (selectedRow == null)
+		insertRecord(formData);
+	else
+		updateRecord(formData);
 	resetForm();
 }
 
@@ -54,4 +57,12 @@ function updateRecord(formData){
 	selectedRow.cells[1].innerHTML = formData.lastname;
 	selectedRow.cells[2].innerHTML = formData.gender;
 	selectedRow.cells[3].innerHTML = formData.address;
+}
+
+function onDelete(td){
+	if (confirm('Are you sure you want to delete this record?')){
+		delRow = td.parentElement.parentElement; 
+		document.getElementById('elist').deleteRow(delRow.rowIndex);
+		resetForm();
+	}
 }

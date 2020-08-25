@@ -1,0 +1,60 @@
+body > table{
+    width: 80%;
+}
+
+
+table{
+    margin: auto;
+    border-collapse: collapse;
+}
+table.list{
+    width:100%;
+}
+
+td, th {
+    padding: 8px;
+    border: 1px solid #dddddd;
+    text-align: left;
+}
+tr:nth-child(even), table.list thead>tr {
+    background-color: #dddddd;
+}
+
+input[type=text]{
+    width: 100%;
+    padding: 12px 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;margin: 8px 0;
+    box-sizing: border-box;
+    display: inline-block;
+}
+
+input[type=submit], input[type=button]{
+    width: 30%;
+    padding: 14px 20px;
+    border: none;
+    border-radius: 4px;background-color: #ddd;
+    margin: 8px 0;
+    color: #000;
+    cursor: pointer;
+}
+
+form div.form-action-buttons{
+    text-align: center;
+}
+
+a{
+    margin-right: 4px;
+    color: #0000ee;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+label.validation-error{
+    margin-left: 5px;
+    color:   red;
+}
+
+.hide{
+    display:none;
+}

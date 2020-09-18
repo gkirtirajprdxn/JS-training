@@ -1,0 +1,121 @@
+*{
+	box-sizing: border-box;
+	padding: 0px;
+	margin: 0px;
+}
+body{
+	font-family: 'Helvetica', Arial, sans-serif;
+	overflow-x: hidden !important;
+}
+.cf:before,
+.cf:after {
+  display: table;
+  content: " ";
+}
+
+.cf:after { clear: both; }
+
+.cf { *zoom: 1; }
+
+.wrapper{
+	width:84.4%;
+	/*padding: 0 105px;*/
+	margin: 0 auto;
+}
+a{
+	padding: 10px;
+	/*background-color: #000;*/
+	color: #fff;
+	text-decoration: none;
+}
+li{
+	list-style-type: none;
+}
+figure img{
+	width: 100%;
+	height: auto;
+}
+
+.black{
+	background-color: #000;
+	color: #fff;
+}
+header .logo{
+	color: #fff;
+	display: inline-block;
+}
+nav{
+	padding: 10px;
+	display: inline-block;
+	float: right;
+}
+header li{
+	padding: 10px;
+	display: inline-block;
+}
+.logo{
+	padding: 10px;
+}
+.heading{
+	padding: 20px;
+	text-align: center;
+}
+.boxes{
+	text-align: center;
+}
+.boxes a{
+	background-color: #000;
+}
+.boxes h3{
+	padding: 20px;
+}
+.box{
+	display: inline-block;
+	width: 200px;
+	height: 250px;
+	margin: 20px; 
+	border: 1px solid #ccc;
+	border-radius: 10px;
+}
+.box1 h3{
+	border-radius: 10px 10px 0 0;
+	background-color: red;
+}
+.box2 h3{
+	border-radius: 10px 10px 0 0;
+	background-color: orange;
+}
+.box3 h3{
+	border-radius: 10px 10px 0 0;
+	background-color: yellow;
+}
+.drop{
+	width: 200px;
+	height: 176px;
+	margin-top: 10px;
+}
+.tasks{
+	padding: 20px;
+	text-align: center;
+}
+.tasks li{
+	padding: 10px;
+	border-radius: 5px;
+	background-color: #000;
+	display: inline-block;
+	color: #fff;
+	cursor: pointer;
+}
+.drop li{
+	padding: 10px;
+	margin: 5px 0;
+	border-radius: 5px;
+	background-color: #000;
+	display: block;
+	color: #fff;
+	cursor: pointer;
+}
+
+footer a{
+	background-color: none !important;
+}

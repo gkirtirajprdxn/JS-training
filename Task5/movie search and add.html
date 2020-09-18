@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Movies Search</title>
+	<!-- <link rel="stylesheet" type="text/css" href="assets/css/style.css"> -->
+</head>
+<body>
+
+	<form id="search">
+		<label for="movies">Search by: </label>
+		<select name="movies" id="movies">
+			<option value="mname" id="opt1">Movie Names</option>
+			<option value="aname" id="opt2">Actor Names</option>
+			<option value="dname" id="opt3">Director Name</option>
+		</select>
+
+		<input type="text" name="search_name" id="name_input">
+		<input type="button" value="Search" id="submit">
+	</form>
+
+	<form id="add">
+		<label>Movie Name: </label><input type="text" name="movie_name" id="movie_input" required="This field is required."><br>
+		<label>Actor Names: </label><input type="text" name="actor_names" id="actor_input" required="This field is required."><br>
+		<label>Director Names: </label><input type="text" name="director_names" id="director_input" required="This field is required."><br>
+		<input type="button" value="Add Movie" id="add_btn">
+	</form>
+
+	<div class="result">
+	
+	</div>
+
+<script type="text/javascript" src="assets/js/script1.js"></script>
+</body>
+</html>
+

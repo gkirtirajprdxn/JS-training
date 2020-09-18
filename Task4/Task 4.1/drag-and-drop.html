@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Drag&drop</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+<body id="bodyid">
+
+<header>
+	<div class="wrapper black">
+		<a href="#" title="Logo" class="logo"><h1>LOGO</h1></a>
+		<nav class="cf">
+			<ul>
+				<li><a href="#" title="Start" id="start" onclick="startFun()">START</a></li>
+				<li><a href="#" title="Restart" id="restart">RESTART</a></li>
+			</ul>
+		</nav>
+	</div>
+</header>
+
+<section>
+	<div class="wrapper">
+		<div class="heading">
+			<h1>SET YOUR PRIORITIES</h1>
+		</div>
+		<div class="boxes">
+			<div class="box box1">
+				<h3>HIGH</h3>
+				<div class="drop" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+			</div>
+			<div class="box box2">
+				<h3>MEDIUM</h3>
+				<div class="drop" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+			</div>
+			<div class="box box3">
+				<h3>LOW</h3>
+				<div class="drop" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+			</div>
+		</div>
+		<div class="tasks">
+			<ul>
+				<li id="drag1" ondragstart="drag(event)">TASK 1</li>
+				<li id="drag2" ondragstart="drag(event)">TASK 2</li>
+				<li id="drag3" ondragstart="drag(event)">TASK 3</li>
+				<li id="drag4" ondragstart="drag(event)">TASK 4</li>
+				<li id="drag5" ondragstart="drag(event)">TASK 5</li>
+			</ul>
+		</div>
+	</div>
+</section>
+
+<footer>
+	<div class="wrapper black">
+		<a href="#" title="Logo" class="logo"><h2>LOGO</h2></a>
+	</div>
+</footer>
+	
+<script type="text/javascript" src="assets/js/script.js"></script>
+</body>
+</html>

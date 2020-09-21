@@ -234,3 +234,86 @@ nav a {
   width: 100%;
   height: auto;
 }
+
+
+/* portfolio */
+
+
+.portfolio {
+  padding: 55px 0;
+  text-align: center;
+}
+
+/*head*/
+.head h2 {
+  font-size: 32px;
+}
+
+.head p {
+  padding: 10px 0;
+  font-size: 18px;
+}
+
+/*links*/
+.links {
+  margin: 40px 0;
+  /*text-align: center;*/
+}
+
+.links li {
+  display: inline-block;
+}
+
+.links a {
+  padding: 10px 15px;
+  background-color: #16A086;
+  color: #fff;
+  font-size: 18px;
+}
+
+.links a:hover {
+  background-color: #128e8e;
+}
+
+/*icons*/
+.icons li {
+  padding: 15px 30px;
+  display: inline-block;
+}
+
+.icon-img {
+  width: 220px;
+  height: 220px;
+  border-radius: 50%;
+}
+
+.icon-block {
+  position: relative;
+}
+
+/*hover*/
+.hover {
+  display: none;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%,-50%);
+}
+
+.hover h3 {
+  color: #fff;
+  font-size: 18px;
+}
+
+.hover p {
+  color: #fff;
+  font-size: 16px;
+}
+
+.hover img {
+  border-radius: 50%;
+  background: transparent;
+}
+
+.camera a:hover .icon-fig{
+  background: #16a086;
+}

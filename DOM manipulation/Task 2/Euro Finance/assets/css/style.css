@@ -270,3 +270,71 @@ nav a {
   color: #fff;
   cursor: pointer;
 }
+
+
+/* content */
+
+
+.content {
+  padding-top: 180px;
+}
+
+.banner {
+  min-height: 600px;
+  background-color: #005faa;
+  background-image: url(https://www.eurofinance.com/wp-content/uploads/2018/06/hero-signup4.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.banner .wrapper {
+  padding-top: 100px;
+  padding-bottom: 60px;
+  overflow: hidden;
+  position: relative;
+  color: #fff;
+}
+
+.banner h1 {
+  font-size: 43px;
+}
+
+.banner-content {
+  position: relative;
+}
+
+.banner-desc {
+  width: 60%;
+}
+
+.banner-desc h2 {
+  margin: 19px 0 8px;
+  margin-bottom: 14px;
+  color: #7CD8FF;
+  font-size: 36px;
+}
+
+.navigation {
+  margin: 33px 0 25px;
+}
+
+.navigation ul {
+  padding: 0;
+}
+
+.navigation li {
+  display: inline-block;
+  color: #4A4A4A;
+  font-size: 14px;
+}
+
+.sep {
+  margin: 0 10px;
+  line-height: 9px;
+}
+
+.navigation li a {
+  color: #4A4A4A;
+  font-size: 14px;
+}

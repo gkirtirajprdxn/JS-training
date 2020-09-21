@@ -537,3 +537,13 @@ textarea {
   from {top: -300px; opacity: 0}
   to {top: 0; opacity: 1}
 }
+
+
+/* footer */
+
+
+footer {
+  padding: 40px 0;
+  background-color: #2D3E50;
+  color: #fff;
+}

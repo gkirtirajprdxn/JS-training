@@ -567,3 +567,30 @@ footer {
     font-size: 24px;
   }
 }
+
+@media only screen and (max-width: 540px) {
+  .para {
+    padding: 50px;
+  }
+
+  .head {
+    padding: 50px 60px 0;
+  }
+
+  .video-slides h3 {
+    padding: 40px 28px;
+    font-size: 20px;
+  }
+
+  .mySlides span {
+    padding: 25px;
+  }
+
+  .myvSlides span {
+    padding: 25px;
+  }
+
+  .slide-section {
+    padding: 10px;
+  }
+}

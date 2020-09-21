@@ -84,6 +84,113 @@
         </div>   
       </article>
 
+      <div class="navigation">
+        <div class="wrapper">
+          <ul>
+            <li><a href="#" title="EuroFinance">EuroFinance</a></li>
+            <li class="sep"> > </li>
+            <li><strong>Newsletter sign up</strong></li>
+          </ul>
+        </div>
+      </div>
+      <div class="form-content">
+        <div class="wrapper">
+          <div class="form-header">
+            <h2>Enter your details to subscribe to our newsletter</h2>
+          </div>
+ <!-- onsubmit="return validation()" -->
+          <form id="main-form" autocomplete="off">
+            <div class="fname rel">
+              <label>First Name</label>
+              <div class="input">
+                <input type="text" name="firstname" id="firstname">
+                <span class="error" id="e-fname"></span>
+              </div>
+            </div>
+            <div class="lname rel">
+              <label>Last Name</label>
+              <div class="input">
+                <input type="text" name="lastname" id="lastname">
+                <span class="error" id="e-lname"></span>
+              </div>
+            </div>
+            <div class="position rel">
+              <label>Position</label>
+              <div class="input">
+                <input type="text" name="postition" id="pos">
+                <span class="error" id="e-position"></span>
+              </div>
+            </div>
+            <div class="company rel">
+              <label>Company</label>
+              <div class="input">
+                <input type="text" name="company" id="comp">
+                <span class="error" id="e-company"></span>
+              </div>
+            </div>
+            <div class="company-type rel">
+              <label>Company Type</label>
+              <div class="input-select">
+                <select id="c-type">
+                  <option selected="selected">- select -</option>
+                  <option value="Corporate">Corporate</option>
+                  <option value="Financial Institution">Financial Institution</option>
+                  <option value="Technology / System Supplier">Technology / System Supplier</option>
+                  <option value="Consultant">Consultant</option>
+                  <option value="Media / Press">Media / Press</option>
+                  <option value="Other">Other</option>
+                </select>
+                <span class="error" id="e-c-type"></span>
+              </div>
+            </div>
+            <div class="company-type">
+              <label>Company Type</label>
+              <div class="input-select">
+                <select id="country">
+                  <option selected="selected">- Choose -</option>
+                  <option value="India">India</option>
+                  <option value="US">US</option>
+                  <option value="Brazil">Brazil</option>
+                  <option value="Other">Other</option>
+                </select>
+                <span class="error" id="e-country"></span>
+              </div>
+            </div>
+            <div class="email rel">
+              <label>Work email</label>
+              <div class="input">
+                <input type="email" name="email" id="em">
+                <span class="error" id="e-email"></span>
+              </div>
+            </div>
+            <div class="text-block rel">
+              <p>EuroFinance is part of The Economist Group. Would you also like to receive information on subscription offers, Economist events and other products via email?</p>
+            </div>
+            <p>&nbsp;</p>
+            <div class="check-yes rel">
+              <input type="checkbox" name="yes" id="yes">
+              <label>Yes</label>
+            </div>
+            <div class="check-no rel">
+              <input type="checkbox" name="no" id="no">
+              <label>No</label>
+            </div>
+
+            <span class="error" id="e-check"></span>
+
+            <p>&nbsp;</p>
+            <div class="text-block rel">
+              <p>EuroFinance is part of The Economist Group. Would you also like to receive information on subscription offers, Economist events and other products via email?</p>
+              <a href="#">www.economistgroup.com/privacy</a>
+            </div>
+            <div class="submit">
+              <input type="submit" name="submit" value="Submit" id="sub">
+            </div>
+          </form>
+        </div>
+      </div>
+      
+
     </main>
   </div>
 

@@ -74,7 +74,17 @@ function blurvalidation() {
     }
 }
 
+// submit event and modal function
 
+document.getElementById('contact-form').addEventListener('submit', function(e){ 
+	e.preventDefault();
+	if (!validation()) {
+		return false;
+	} else {
+		var modal = document.getElementById('modal')
+		modal.style.display = 'block';
+	}
+});
 
 
 

@@ -226,3 +226,11 @@ nav a {
   color: #fff;
 }
 
+
+/* banner */
+
+
+.banner img {
+  width: 100%;
+  height: auto;
+}

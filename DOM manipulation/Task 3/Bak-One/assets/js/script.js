@@ -95,7 +95,15 @@ close.addEventListener('click', function(){
 	document.getElementById('contact-form').reset();
 })
 
+// window event
 
+window.addEventListener('click', function(event) {
+	var modal = document.getElementById('modal')
+	if (event.target == modal) {
+		modal.style.display = "none";
+		document.getElementById('contact-form').reset();
+  	}
+})
 
 
 

@@ -1,4 +1,5 @@
 @charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 /*------------------------------------------------------------------
   [Table of contents]
@@ -154,4 +155,29 @@ sub { bottom: -.25em; }
   font-family: 'Futura Bold', 'Gill Sans', Arial, 'Helvetica Neue', Helvetica, sans-serif;
   font-style: normal;
   font-weight: bold;
+}
+
+/* document */
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  text-decoration: none;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+.wrapper {
+  max-width: 940px;
+  width: 100%;
+  margin: 0 auto;
 }

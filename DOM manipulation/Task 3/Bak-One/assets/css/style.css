@@ -470,3 +470,70 @@ textarea {
 .submitbtn:hover {
   background-color: #128e8e;
 }
+
+/*modal*/
+.modal {
+  width: 100%; 
+  height: 100%; 
+  display: none;
+  overflow: auto; 
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  animation-duration: 0.4s;
+  animation-name: fadeIn;
+  background-color: rgb(0,0,0); 
+  background-color: rgba(0,0,0,0.4); 
+}
+
+.modal-content {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  animation-name: slideIn;
+  animation-duration: 0.4s;
+  background-color: #fefefe;
+  text-align: center;
+}
+
+#close {
+  float: right;
+  color: #fff;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+#close:hover,
+#close:focus {
+  color: #000;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.modal-header {
+  padding: 2px 16px;
+  background-color: #5cb85c;
+  color: white;
+}
+
+.modal-header h2{
+  padding: 20px;
+  display: inline-block;
+  font-size: 30px;
+}
+
+.modal-body {
+  padding: 2px 16px;
+}
+
+.modal-body h3 {
+  padding: 20px;
+  font-size: 20px;
+}
+
+@keyframes slideIn {
+  from {top: -300px; opacity: 0}
+  to {top: 0; opacity: 1}
+}

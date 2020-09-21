@@ -182,3 +182,75 @@ figure img {
   max-width: 1400px;
   margin: 0 auto;
 }
+
+/* header */
+
+.header {
+  border-bottom: 2px solid #BEBEBE;
+  margin: 0 auto;
+}
+
+.logo {
+  padding: 10px 25px 25px 25px;
+  display: inline-block;
+  /*vertical-align: top;*/
+}
+
+nav {
+  padding: 10px 0 25px 0;
+  display: inline-block;
+}
+
+nav li {
+  padding: 5px;
+  border-left: 1px solid #BEBEBE;
+  display: inline-block;
+}
+
+nav li:nth-last-child(2) {
+  border-left: none;
+}
+
+nav li a{
+  padding: 6px;
+  color: #6C6E70;
+}
+
+nav li a:hover {
+  color: #1797F9;
+}
+
+nav .active {
+  color: #1797F9;
+}
+
+#check{
+  display: none;
+}
+
+#cross{
+  display: none;
+}
+
+.checkbtn{
+  padding: 5px;
+  display: none;
+  float: right;
+  position: relative;
+  color: #6C6E70;
+  cursor: pointer;
+  font-size: 30px;
+  user-select: none;
+}
+
+.check:checked ~ .checkbtn #cross{
+  display: block;
+  position: fixed;
+  right: 5px;
+}
+.check:checked ~ .checkbtn #bars{
+  display: none;
+}
+
+
+

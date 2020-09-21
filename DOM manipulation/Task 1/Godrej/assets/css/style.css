@@ -380,3 +380,28 @@ nav .active {
   from {opacity: .4}
   to {opacity: 1}
 }
+
+/* video-slides */
+
+.video-slides {
+  position: relative;
+}
+
+.video-slides h3{
+  padding: 110px 155px 60px 155px;
+  display: inline-block;
+  font-size: 40px;
+  font-style: italic;
+}
+
+.video-slides ul img {
+  width: 100%;
+}
+
+.video-slides .vs {
+  max-width: 1400px;
+  width: 100%;
+  position: absolute;
+  bottom: 0px;
+  opacity: 0.8;
+}

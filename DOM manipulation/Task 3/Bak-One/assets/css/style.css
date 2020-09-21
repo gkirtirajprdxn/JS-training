@@ -182,3 +182,24 @@ li {
   width: 92.13%;
   margin: 0 auto;
 }
+
+
+/* header */
+
+
+header {
+  padding: 25px 0;
+}
+
+/*logo*/
+.logo {
+  display: inline-block;
+}
+
+.logo h1 {
+  font-size: 32px;
+}
+
+.logo a {
+  color: #363636;
+}

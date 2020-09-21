@@ -478,3 +478,69 @@ footer {
     margin: 0 60px;
   }
 }
+
+@media only screen and (max-width: 995px) {
+  nav {
+    width: 100%;
+    display: none;
+    position: fixed;
+    top: 0px;
+    left: 0;
+    background-color: #363636;
+    text-align: center;
+  }
+
+  nav li{
+    padding: 10px 0;
+    display: block;
+  }
+
+  nav a{
+    display: inline-block;
+  }
+
+  .checkbtn{
+    /*margin-top: -80px;*/
+    display: inline-block;
+    float: right;
+    z-index: 1;
+  }
+
+  .check:checked ~ nav{
+    max-height: 80vh;
+    display: block !important;
+    transition: max-height .2s ease-out;
+  }
+
+  .check:checked ~ nav li{
+    display: block;
+  }
+
+  .check:checked ~ nav a{
+    display: block;
+  }
+
+  .para {
+    width: 100%;
+  }
+
+  .banner_image {
+    /*width: 100%;*/
+    margin: 0 auto;
+    display: block;
+  }
+
+  .video-slides h3 {
+    font-size: 28px;
+  }
+
+  .col-1, .col-2, .col-3 {
+    width: 100%;
+    margin: 0 0px;
+    text-align: center;
+  }
+
+  .info a {
+    display: block;
+  }
+}

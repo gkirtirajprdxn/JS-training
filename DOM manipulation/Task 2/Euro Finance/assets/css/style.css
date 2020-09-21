@@ -243,3 +243,30 @@ header form {
   background-color: #009FE3;
   color: #fff;
 }
+
+
+/* navbar */
+
+
+nav {
+  width: 100%;
+  margin-top: 140px;
+  position: fixed;
+  z-index: 2;
+  background: radial-gradient(circle, #005FAA 0%, #009FE3 100%);
+}
+
+nav li {
+  float: left;
+}
+
+nav a:hover, .active {
+  background-color: #009FE3;
+}
+
+nav a {
+  padding: 10px 16px 12px;
+  display: inline-block;
+  color: #fff;
+  cursor: pointer;
+}

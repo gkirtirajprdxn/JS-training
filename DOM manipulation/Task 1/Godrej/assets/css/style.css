@@ -461,3 +461,20 @@ footer {
 .links li + li {
   padding: 0 10px;
 }
+
+/* media queries */
+
+@media only screen and (max-width: 1280px) {
+  nav a {
+    padding: 10px;
+    font-size: 10px;
+  }
+
+  nav li {
+    padding: 0 5px;
+  }
+
+  .col-1, .col-2, .col-3 {
+    margin: 0 60px;
+  }
+}

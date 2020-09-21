@@ -86,7 +86,14 @@ document.getElementById('contact-form').addEventListener('submit', function(e){
 	}
 });
 
+// close btn
 
+var close = document.getElementById('close')
+close.addEventListener('click', function(){
+	var modal = document.getElementById('modal')
+	modal.style.display = "none";
+	document.getElementById('contact-form').reset();
+})
 
 
 

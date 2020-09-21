@@ -203,3 +203,26 @@ header {
 .logo a {
   color: #363636;
 }
+
+/*nav*/
+nav {
+  padding: 10px;
+  display: inline-block;
+  float: right;
+}
+
+nav li {
+  display: inline-block;
+}
+
+nav a {
+  padding: 10px 15px;
+  color: #363636;
+  font-size: 22px;
+}
+
+.active, nav a:hover {
+  background-color: #16A086;
+  color: #fff;
+}
+

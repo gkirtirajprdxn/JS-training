@@ -252,5 +252,34 @@ nav .active {
   display: none;
 }
 
+/* residences */
+
+.para {
+  width: 50%;
+  padding: 100px;
+  display: inline-block;
+}
+
+.para h2 {
+  padding-bottom: 25px;
+  color: #000;
+  font-size: 40px;
+}
+
+.para p {
+  padding-bottom: 25px;
+  line-height: 25px;
+}
+
+.banner_image {
+  width: calc(50% - 5px);
+  display: inline-block;
+  vertical-align: top;
+}
+
+.residences {
+  border-bottom: 1px solid #BEBEBE;
+  margin: 0 auto;
+}
 
 

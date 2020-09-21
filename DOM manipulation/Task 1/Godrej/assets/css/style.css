@@ -544,3 +544,26 @@ footer {
     display: block;
   }
 }
+
+@media only screen and (max-width: 768px) {
+  .banner_image {
+    width: 100%;
+  }
+
+  .info h4 {
+    font-size: 28px;
+  }
+
+  .info a {
+    font-size: 18px;
+  }
+
+  .g-links {
+    padding: 20px 35px;
+  }
+
+  .video-slides h3 {
+    padding: 50px;
+    font-size: 24px;
+  }
+}

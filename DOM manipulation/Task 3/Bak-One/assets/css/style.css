@@ -317,3 +317,63 @@ nav a {
 .camera a:hover .icon-fig{
   background: #16a086;
 }
+
+
+/* about */
+
+
+.about {
+  padding: 55px 0;
+  background-color: #16A086;
+  text-align: center;
+}
+
+/*head*/
+.head1 h2 {
+  color: #fff;
+  font-size: 32px;
+}
+
+.head1 p {
+  padding: 10px 0;
+  color: #fff;
+  font-size: 18px;
+}
+
+/*card*/
+.card {
+  width: 21.76%;
+  margin: 50px 60px;
+  display: inline-block;
+  background-color: #fff;
+}
+
+.pic-img {
+  width: 100%;
+}
+
+.social {
+  display: none;
+}
+
+.content {
+  padding: 10px;
+}
+
+.text-head {
+  padding: 20px 0;
+}
+
+.text-head h3 {
+  font-size: 22px;
+}
+
+.text-head p {
+  font-size: 16px;
+  font-style: italic;
+}
+
+.para {
+  line-height: 20px;
+  text-align: left;
+}

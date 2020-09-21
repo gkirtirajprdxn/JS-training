@@ -405,3 +405,59 @@ nav .active {
   bottom: 0px;
   opacity: 0.8;
 }
+
+/* footer */
+
+footer {
+  padding: 80px 0 60px 0;
+  background-color: #EEEEEE;
+}
+
+.col-1, .col-2, .col-3 {
+  width: 220px;
+  margin: 0 65px;
+  display: inline-block;
+}
+
+.col-3 {
+  vertical-align: top;
+}
+
+.info {
+  padding: 20px 0;
+}
+
+.info a{
+  color: #6C6E70;
+  font-size: 13px;
+}
+
+.info a:hover {
+  color: #1797F9;
+}
+
+.info .active {
+  color: #1797F9;
+}
+
+.info h4 {
+  padding-bottom: 20px;
+  color: #000;
+  font-size: 18px;
+}
+
+.foot {
+  padding: 0 112px;
+}
+
+.links li {
+  display: inline-block;
+}
+
+.links ul li:first-child {
+  padding-right: 10px;
+}
+
+.links li + li {
+  padding: 0 10px;
+}

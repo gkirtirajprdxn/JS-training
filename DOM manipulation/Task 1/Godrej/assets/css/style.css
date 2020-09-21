@@ -282,4 +282,101 @@ nav .active {
   margin: 0 auto;
 }
 
+/* floorplans */
 
+.head {
+  padding: 50px;
+}
+
+.head h2 {
+  color: #000;
+  font-size: 40px;
+}
+
+.head p {
+  padding: 20px 0;
+  line-height: 25px;
+}
+
+.g-links {
+  padding: 20px 0 20px 75px;
+}
+
+.g-links li {
+  padding: 0 15px;
+  display: inline-block;
+}
+
+.g-links a {
+  padding: 5px;
+  color: #6C6E70;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.g-links a:hover {
+  color: #1797F9;
+}
+
+.g-links .active {
+  color: #1797F9;
+}
+
+.g-img {
+  padding: 5px 40px;
+}
+
+.g-img img{
+  /*width: 100%;*/
+}
+
+.slide-section {
+  padding: 25px;
+  background-color: #7E7E7E;
+}
+
+.mySlides span {
+  padding: 40px;
+  position: absolute;
+  color: #fff;
+  font-size: 18px;
+}
+.myvSlides span {
+  padding: 40px;
+  margin-left: 40px;
+  position: absolute;
+  z-index: 1;
+  bottom: 0;
+  color: #fff;
+  font-size: 18px;
+}
+
+.previous {
+  cursor: pointer;
+}
+
+.next {
+  float: right;
+  cursor: pointer;
+}
+
+.dots {
+  cursor: pointer;
+}
+
+.mySlides {
+  display: none;
+}
+.myvSlides {
+  display: none;
+}
+
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}

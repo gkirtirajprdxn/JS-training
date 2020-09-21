@@ -154,4 +154,31 @@ sub { bottom: -.25em; }
   font-family: 'Futura Bold', 'Gill Sans', Arial, 'Helvetica Neue', Helvetica, sans-serif;
   font-style: normal;
   font-weight: bold;
+  color: #6C6E70;
+}
+
+/* document */
+
+*{
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style-type: none;
+}
+
+figure img {
+  width: 100%;
+  height: auto;
+}
+
+.wrapper {
+  max-width: 1400px;
+  margin: 0 auto;
 }
